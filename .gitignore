@@ -58,5 +58,5 @@ typings/
 .env
 
 # Ignore .min and .map files
-*.min
+*.min.*
 *.map
