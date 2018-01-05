@@ -1,0 +1,19 @@
+&::before {
+    content: "";
+    display: block;
+    background-image: url('https://placeimg.com/640/480/people');
+    background-size: cover;
+    margin: -$space-l;
+    min-height: 200px;
+    
+    @media screen and (min-width: breakpoint(large)) {
+        position: absolute;
+        margin: 0;
+        margin-left: -$space-l;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+}

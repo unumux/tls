@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "@unumux/theme-coloniallife-default": "^0.7.1",
+    "@unumux/theme-unum-default": "^0.5.0",
     "@unumux/ux-build-tools": "^3.7.0",
     "@unumux/willow": "^0.3.0"
   },
