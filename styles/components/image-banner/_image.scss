@@ -1,7 +1,9 @@
 &::before {
     content: "";
     display: block;
-    background-image: url('https://placeimg.com/640/480/people');
+    background-image: url('../images/banner-image-colonial-life.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     margin: -$space-l;
     min-height: 200px;
@@ -13,7 +15,7 @@
         left: 50%;
         top: 0;
         bottom: 0;
-        width: 100%;
+        width: 70%;
         z-index: -1;
     }
 }

@@ -3,3 +3,7 @@
 
 @import "components/components";
 @import "overrides/willow-overrides";
+
+html {
+    overflow-x: hidden;
+}
